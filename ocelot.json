@@ -699,7 +699,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "takefood-userorderservice.azurewebsites.net",
+          "Host": "takefood-orderservice.azurewebsites.net",
           "Port": 443
         }
       ],
@@ -713,7 +713,7 @@
       "DownstreamScheme": "wss",
       "DownstreamHostAndPorts": [
         {
-          "Host": "takefood-userorderservice.azurewebsites.net",
+          "Host": "takefood-orderservice.azurewebsites.net",
           "Port": 443
         }
       ],
