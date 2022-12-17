@@ -437,7 +437,7 @@
     },
     {
       "UpstreamPathTemplate": "/api/Order?status={status}&idOrder={id}",
-      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamHttpMethod": [ "PUT" ],
       "DownstreamScheme": "https",
       "SwaggerKey": "order",
       "DownstreamHostAndPorts": [
