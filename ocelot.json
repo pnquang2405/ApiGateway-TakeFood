@@ -671,7 +671,7 @@
     },
     // Review
     {
-      "UpstreamPathTemplate": "/GetPaging?StartDate={startDate}&EndDate={endDate}&PageNumber={pageNum}&PageSize={size}&storeID={id}",
+      "UpstreamPathTemplate": "/GetPaging?{everything}",
       "UpstreamHttpMethod": [ "GET" ],
       "DownstreamScheme": "https",
       "SwaggerKey": "review",
@@ -681,7 +681,7 @@
           "Port": 443
         }
       ],
-      "DownstreamPathTemplate": "/GetPaging?StartDate={startDate}&EndDate={endDate}&PageNumber={pageNum}&PageSize={size}&storeID={id}",
+      "DownstreamPathTemplate": "/GetPaging?{everything}",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
