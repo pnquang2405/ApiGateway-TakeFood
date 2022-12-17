@@ -156,7 +156,7 @@
       }
     },
     {
-      "UpstreamPathTemplate": "/api/Food/UpdateFood?{id}",
+      "UpstreamPathTemplate": "/api/Food/{everything}",
       "UpstreamHttpMethod": [ "PUT" ],
       "DownstreamScheme": "https",
       "SwaggerKey": "store",
@@ -166,7 +166,7 @@
           "Port": 443
         }
       ],
-      "DownstreamPathTemplate": "/api/Food/UpdateFood?{id}",
+      "DownstreamPathTemplate": "/api/Food/{everything}",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
         "AllowedScopes": []
