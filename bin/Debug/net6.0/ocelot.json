@@ -699,7 +699,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "takefood-userorderservice.azurewebsites.net",
+          "Host": "takefood-orderservice.azurewebsites.net",
           "Port": 443
         }
       ],
@@ -708,16 +708,16 @@
       "ReRouteIsCaseSensitive": false
     },
     {
-      "DownstreamPathTemplate": "/notifysocket",
+      "DownstreamPathTemplate": "/notifysocket?{everything}",
       "ReRouteIsCaseSensitive": false,
       "DownstreamScheme": "wss",
       "DownstreamHostAndPorts": [
         {
-          "Host": "takefood-userorderservice.azurewebsites.net",
+          "Host": "takefood-orderservice.azurewebsites.net",
           "Port": 443
         }
       ],
-      "UpstreamPathTemplate": "/notifysocket",
+      "UpstreamPathTemplate": "/notifysocket?{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
     }
   ],
